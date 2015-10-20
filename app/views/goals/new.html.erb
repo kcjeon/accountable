@@ -1,0 +1,7 @@
+<h1> Enter Your Goals </h1>
+<%= simple_form_for @goal do |f| %>
+  <%= f.input :desire %>
+  <%= f.input :person %>
+  <br />
+  <%= f.submit 'Create', :class => "btn btn-info"%>
+<% end %>
